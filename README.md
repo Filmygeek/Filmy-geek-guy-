@@ -1,14 +1,6 @@
 # Filmy-geek-guy-
 Official website of Filmy geek guy 
-Badhai ho Boss, shuruaat ho gayi!
-
-Ab main aapko ek simple homepage ka code de raha hoon jo aap directly GitHub repo me upload kar sakte ho. Yeh ek basic HTML/CSS landing page hoga “Filmy Geek Guy” ke liye.
-
-Step 2: Website Code (index.html + style.css)
-
-index.html
-
-<!DOCTYPE html>
+CTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -30,14 +22,17 @@ index.html
       <h2>Geek News</h2>
       <p>Stay tuned for updates on movies, series, and more!</p>
     </section>
+
+    <section>
+      <h2>Download Special Content</h2>
+      <a href="files/filmy-kit.pdf" download class="download-btn">Download PDF</a>
+    </section>
   </main>
   <footer>
     <p>&copy; 2025 Filmy Geek Guy. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
-style.css
 
 body {
   margin: 0;
@@ -60,6 +55,5 @@ footer {
   background-color: #222;
   padding: 1rem;
   font-size: 0.9rem;
-  color: #bbb;
-}
+  color: #bb;
 
