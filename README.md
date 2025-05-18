@@ -73,3 +73,5 @@ footer {
 .download-btn:hover {
   background-color: #b00610;
 }
+<img src="images/hero.jpg" alt="Hero Image" style="width:100%;">
+![Hero Image](images/hero.jpg)
