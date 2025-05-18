@@ -1,6 +1,7 @@
 # Filmy-geek-guy-
 Official website of Filmy geek guy 
-CTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -13,11 +14,13 @@ CTYPE html>
     <h1>Filmy Geek Guy</h1>
     <p>Your Daily Dose of Cinema & Geek Culture</p>
   </header>
+
   <main>
     <section>
       <h2>Latest Reviews</h2>
       <p>Coming soon...</p>
     </section>
+
     <section>
       <h2>Geek News</h2>
       <p>Stay tuned for updates on movies, series, and more!</p>
@@ -28,12 +31,12 @@ CTYPE html>
       <a href="files/filmy-kit.pdf" download class="download-btn">Download PDF</a>
     </section>
   </main>
+
   <footer>
     <p>&copy; 2025 Filmy Geek Guy. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -55,5 +58,18 @@ footer {
   background-color: #222;
   padding: 1rem;
   font-size: 0.9rem;
-  color: #bb;
-
+  color: #bbb;
+}
+.download-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #e50914;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #b00610;
+}
